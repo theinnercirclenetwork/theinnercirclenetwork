@@ -1,0 +1,88 @@
+<!-- The code is based on the a class project at Rutgers University. 
+
+Project Title: RU Healthy?
+Class:  Software Engineering I   
+Course No: ECE567
+Professor: Ivan Marsic
+Semester: Fall 2017
+Website code developers: Tina Drew
+Written by Tina Drew
+Debugged by Tina Drew
+Tested by Tina Drew
+
+Group Participants: Aymen F Al-Saadi, Tahiya Chowdhury, Tina L Drew, 
+George Koubbe, Himabindu Paruchuri and Ramya Tadepalli 
+
+The purpose of this page is to allow users to enter into the RU Healthy Webpages-->
+
+<!-- The code below creates a menu navigation bar at the top of the page and was modified from.
+https://www.w3schools.com/css/tryit.asp?filename=trycss_float5-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D03F2B;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+</style>
+<!-- End of modified code -->
+
+</head>
+<body>
+   <title>RU Healthy Homepage</title>
+<ul>
+  <li><a>RU HEALTHY?</a></li>
+ 
+</ul>
+
+<br><br><p align = "center"> 
+<img align = "center" 
+src="profile1.jpg" alt="Smiley face" height = 180 width = "250">
+<body bgcolor = "#C8C4C4">
+<body onload="logout()">
+
+<!-- Creates button that redirects to the Login.html page -->
+<br><br>
+<body>
+<p align ="center"> <a href="Login.html">
+  <input type="submit" value="Login" style="height:50px;width:250px">
+
+<!-- Creates button that redirects to the Register.html page -->
+ <tr>
+<div>
+<p align ="center"> <a href="Register.html">
+  <input type="submit" value="Register" style="height:50px;width:250px">
+</tr>
+
+
+</body>
+</html>
+
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+<script src="FirebaseConfig.js"> </script> <!-- Used to configure communication with the firebase database -->
+<script src="LibraryCommon.js"> </script><!-- Contains functions for common actions -->
+<script src="FirebaseAuthentication.js"> </script><!-- Contains functions for firebase user athentication--> 
+<script src="FirebaseAddUser.js"> </script> <!-- Contains function to add users to the firebase database -->
+
+</body>
+</html>
